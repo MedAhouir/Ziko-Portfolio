@@ -8,7 +8,7 @@ const Footer = () => {
     <footer id="contact" className="px-6 sm:px-12 py-8 bg-black text-white">
       <div className="flex flex-col gap-6 lg:gap-10">
         <h1 className="capitalize text-4xl sm:text-5xl lg:text-7xl xl:text-9xl font-sora leading-tight">
-          Don't miss your moments
+          Don&apos;t miss your moments
         </h1>
 
         <div className="flex flex-col sm:flex-row sm:justify-end sm:items-center sm:gap-4">

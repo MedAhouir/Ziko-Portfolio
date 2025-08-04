@@ -8,7 +8,7 @@ const Hero = () => {
         <div className='flex flex-col '>
           <h1 className='text-6xl sm:text-9xl capitalize font-semibold font-sora'>Capturing </h1>
           <div className='flex justify-center gap-2'>
-            <h1 className='text-6xl sm:text-9xl capitalize font-semibold font-sora'>life's</h1>
+            <h1 className='text-6xl sm:text-9xl capitalize font-semibold font-sora'>life&apos;s</h1>
             <Image src="/hero.JPG" alt="hero" width={210} height={55} className='rounded-xl hidden sm:block'/>
             <h1 className='text-6xl sm:text-9xl capitalize font-semibold font-sora'>essence</h1>
           </div>

@@ -12,18 +12,12 @@ export const SOCIAL_LINKS = [
 
 export const photosByCategory: Record<string, string[]> = {
   nature: [
-    "/images/nature/1.jpg",
-    "/images/nature/2.jpg",
-    "/images/nature/3.jpg",
+    
   ],
   portraits: [
-    "/images/portraits/1.jpg",
-    "/images/portraits/2.jpg",
+    
   ],
   street: [
-    "/images/street/1.jpg",
-    "/images/street/2.jpg",
-    "/images/street/3.jpg",
-    "/images/street/4.jpg",
+    
   ],
 };
