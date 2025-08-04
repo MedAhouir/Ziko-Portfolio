@@ -1,7 +1,7 @@
 import { PiPhoneCallFill } from "react-icons/pi";
 import { BiLogoGmail } from "react-icons/bi";
 import Link from "next/link";
-import { NAV_LINKS, SOCIAL_LINKS } from "@/constants";
+import { SOCIAL_LINKS } from "@/constants";
 
 const Footer = () => {
   return (
