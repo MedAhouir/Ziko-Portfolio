@@ -4,7 +4,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <section className='w-full min-h-screen px-12 py-16 flex flex-col text-center justify-center items-center'>
-        <h3 className='text-xl font-semibold font-cabin text-secondary'>Hi!, I'm <span className='text-gray-300'>Zakaria BOULAHJAR</span></h3>
+        <h3 className='text-xl font-semibold font-cabin text-secondary'>Hi!, I&apos;m <span className='text-gray-300'>Zakaria BOULAHJAR</span></h3>
         <div className='flex flex-col '>
           <h1 className='text-6xl sm:text-9xl capitalize font-semibold font-sora'>Capturing </h1>
           <div className='flex justify-center gap-2'>
