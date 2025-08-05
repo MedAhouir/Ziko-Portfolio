@@ -1,6 +1,14 @@
+// app/[category]/page.tsx
+
 import { photosByCategory } from "@/constants";
 import { notFound } from "next/navigation";
 
+// 👇 This function tells Next.js what values for [category] to pre-render
+export async function generateStaticParams() {
+  return Object.keys(photosByCategory).map((category) => ({
+    category,
+  }));
+}
 
 type Props = {
   params: {
@@ -8,9 +16,8 @@ type Props = {
   };
 };
 
-export default async function CategoryPage({ params }: Props) {
-
-  const category = params.category;
+export default function CategoryPage({ params }: Props) {
+  const { category } = params;
   const photos = photosByCategory[category];
 
   if (!photos) return notFound();
