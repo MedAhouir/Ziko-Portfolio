@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cabin.variable} ${sora.variable} antialiased`}
+        className={`${cabin.variable} ${sora.variable} text-lg antialiased`}
       >
         {children}
       </body>
